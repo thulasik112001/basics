@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="styles/cv.css">
+</head>
+<style>
+.container{
+    background-color: black;
+    height: 450px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-shrink: 0;
+}
+.div-red{
+    background-color: rgb(172, 203, 229);
+    width: 100px;
+    height: 90px;
+}
+.div-blue{
+    background-color: rgb(97, 158, 133);
+    width: 100px;
+    height: 70px;
+    flex-grow: 1;
+}
+.div-green{
+    background-color: rgb(177, 88, 106);
+    width: 100px;
+    height: 50px;
+    flex-grow: 2;
+}
+</style>
+<body>
+    <div class="container">
+        <div class=" div-style div-red">Red</div>
+        <div class="div-style div-blue">Blue</div>
+        <div class="div-style div-green">Green</div>
+        </div>
+</body>
+</html>

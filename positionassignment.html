@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <!-- <link rel="stylesheet" href="styles/cv.css"> -->
+    <style>
+        body{
+            height: 150vh;
+        }
+        div{
+            height:80px;
+            width:100%;
+        }
+        .container{
+            background-color: aqua !important;
+            position: sticky;
+            height: 1050px;
+            text-align: center;
+            
+
+        }
+        .div-blue{
+            background-color: blue;
+            position: relative;
+            left: 0;
+            height: 900px;
+            width: 100px;
+            color: aliceblue;
+            font-size: larger;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            
+            
+
+        }
+        .div-green{
+            background-color: green;
+            position: fixed;
+            top:0;
+            color: aliceblue;
+            font-size: larger;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .div-yellow{
+            background-color: yellow;
+            position: relative;
+            width: 100px;
+            height: 100px;
+        }
+        .div-orange{
+            background-color: orange;
+            position: fixed;
+            bottom: 0;
+            color: aliceblue;
+            font-size: larger;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> <center>The container part</center>
+    <div class=" div-style div-red"></div>
+    <div class="div-style div-blue"><center>The side part</center></div>
+    <div class="div-style div-green"><center>The header part</center></div>
+    <div class="div-style div-yellow"><center>center</center></div>
+    <div class="div-style div-orange"><center>The footer part</center></div>
+    </div>   
+</body>
+</html>
